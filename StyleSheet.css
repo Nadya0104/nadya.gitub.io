@@ -1,0 +1,108 @@
+﻿/*
+    CSS file
+    Submitted by:
+    Ambartzumov Nadezda 207267113
+    Ohana Ron 206815557
+*/
+
+body {
+    /* Set the background color of the entire page */
+    background-color: rgb(253, 235, 208);
+    /* Use flexbox to align elements vertically */
+    display: flex;
+    flex-direction: column;
+    /* Center align text and child elements */
+    text-align: center;
+    align-items: center;
+}
+
+/* Styling for the form container */
+.form-container {
+    font-family: calibri;
+    /* Light beige background */
+    background-color: #FFFAF2;
+    /* Gray border with rounded corners */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Box shadow for a subtle 3D effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Fixed width for the form */
+    width: 320px;
+    /* Padding inside the container */
+    padding: 20px;
+    /* Center align text inside the container */
+    text-align: center;
+}
+/* Style the name row in the form*/
+.form-row {
+    /* Display elements in a row with space between */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for input fields inside the form container */
+.form-container input {
+    /* Light beige background */
+    background-color: #FFFAF2;
+    /* Full width of the container */
+    width: 100%;
+    /* Padding inside the input field */
+    padding: 10px;
+    /* Space between input fields */
+    margin-bottom: 15px;
+    /* Gray border with rounded corners */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Hover effect for input fields */
+.form-container input:hover {
+    /* Solid orange border on hover */
+    border-style: solid;
+    border-color: orange;
+}
+
+/* Style for the submit button */
+.form-container button {
+    /* Full width of the container */
+    width: 100%;
+    /* Padding inside the button */
+    padding: 10px;
+    /* Orange background with white text */
+    background-color: #E8956E;
+    color: white;
+    /* No border */
+    border: none;
+    /* Rounded corners */
+    border-radius: 5px;
+    /* Larger font size */
+    font-size: 16px;
+    /* Pointer cursor on hover */
+    cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+.form-container button:hover {
+    /* Darker orange background on hover */
+    background-color: #E47846;
+}
+
+/* Styling for error messages */
+.form-container span {
+    /* Red color for error messages */
+    color: red;
+    /* Font size */
+    font-size: 16px;
+}
+
+/* Styling for paragraphs */
+p {
+    /* Use Calibri font */
+    font-family: calibri;
+    /* Larger italicized bold text */
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
+
+

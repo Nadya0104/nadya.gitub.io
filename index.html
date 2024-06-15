@@ -1,0 +1,49 @@
+﻿<!--
+    HTML file
+    Submitted by : 
+    Ambartzumov Nadezda 207267113
+    Ohana Ron 206815557
+-->
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <!-- Define responsive page-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Website title-->
+    <title>Mitzinet</title>
+    <!--Website favicon-->
+    <link rel="icon" type="image/x-icon" href="Mitzinet.png">
+    <!--Connection to CSS file-->
+    <link rel="stylesheet" href="StyleSheet.css">
+    <!--Connection to JS file-->
+    <script src="Script1.js"></script>
+</head>
+<body>
+    <!--Store logo-->
+    <img src="Mitzinet.png" width="300" height="300" />
+    <!--Store description-->
+    <p>Welcome to our customer club! Register now for exclusive perks <br>Get personalized advice, discounts on premium products, early access to new arrivals and earn rewards with every purchase</p><br>
+    <form class="form-container" id="registration">
+        <!--Form title-->
+        <h3>Sign Up</h3>
+        <div class="form-row">
+            <!--Full name input form's fields-->
+            <input type="text" id="fname" name="fname" placeholder="First Name" />
+            <input type="text" id="lname" name="lname" placeholder="Last Name" />
+        </div>
+        <!--Other input form's fields'-->
+        <input type="text" id="phone" name="phone" placeholder="Phone Number" />
+        <input type="text" id="email" name="email" placeholder="Email" />
+        <input type="text" id="password" name="password" placeholder="Password" />
+        <!--Display password field related errors -->
+        <span id="displayError"></span>
+        <input type="text" id="confirmPass" name="confirmPass" placeholder="Confirm Password" />
+        <!--Display confirm password field relates errors-->
+        <span id="displayError2"></span>
+        <!--Click on submit button activate checkForm() function in the script-->
+        <button type="button" onclick="checkForm()">Submit</button>
+    </form>
+</body>
+</html>
